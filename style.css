@@ -206,7 +206,7 @@ button {
 
 .home-intro {
   display: grid;
-  grid-template-columns: minmax(0, 1fr) minmax(280px, 520px);
+  grid-template-columns: minmax(0, 1fr) minmax(280px, 720px);
   column-gap: 70px;
   align-items: end;
 }
