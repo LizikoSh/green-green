@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="uk">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Довідник кімнатних рослин із пошуком і фільтрами за складністю, умовами та безпечністю.">
+  <title>Кімнатні рослини — зелено-зелено.</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet"><link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="inner-header">
+    <div class="container inner-header-row">
+      <a class="inner-logo" href="index.html">зелено-зелено.</a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="inner-nav" aria-label="Відкрити меню"><span></span><span></span><span></span></button>
+      <nav class="inner-nav" id="inner-nav" aria-label="Навігація сайту">
+        <a href="plants.html">Кімнатні рослини</a>
+        <a href="interior.html">В інтер’єрі</a>
+        <a href="accessories.html">Пристосування</a>
+        <a href="creativity.html">Творчість</a>
+        <a href="mistakes.html">Помилки новачків</a>
+      </nav>
+    </div>
+  </header>
+  <main>
+    <section class="page-hero page-hero-plants">
+      <div class="container page-hero-copy"><p class="kicker light">Довідник</p><h1>Кімнатні рослини</h1><p>Знайдіть рослину під своє освітлення, досвід і домашні умови.</p></div>
+    </section>
+    <section class="catalog-section">
+      <div class="container">
+        <div class="source-note">Назви, фотографії, ціни та посилання на картки рослин узято з каталогу <a href="https://dflora.com.ua/kimnatni-roslyny/" target="_blank" rel="noopener noreferrer">Dflora</a>. Умови догляду й позначки безпечності систематизовані для роботи фільтрів.</div>
+        <div class="filters" aria-label="Фільтри довідника">
+          <label class="search-control"><span>Пошук</span><input id="plant-search" type="search" placeholder="Назва українською або латинською"></label>
+          <label><span>Складність</span><select id="difficulty-filter"><option value="all">Усі</option><option value="easy">Легкі</option><option value="beginner">Для початківців</option><option value="hard">Складні</option></select></label>
+          <label><span>Умови</span><select id="condition-filter"><option value="all">Усі</option><option value="shade">Тінь / півтінь</option><option value="sun">Яскраве світло</option><option value="bathroom">Вологе приміщення</option><option value="dry">Сухе повітря</option></select></label>
+          <label><span>Безпечність</span><select id="safety-filter"><option value="all">Усі</option><option value="safe">Безпечніші для тварин</option><option value="toxic">Тримати поза доступом</option></select></label>
+          <button class="reset-button" id="reset-filters" type="button">Скинути</button>
+        </div>
+        <div class="catalog-line"><p id="catalog-count" aria-live="polite"></p></div>
+        <div class="plant-grid" id="plant-grid"></div>
+        <div class="empty-state" id="empty-state" hidden><h2>Нічого не знайдено</h2><p>Змініть параметри або скиньте фільтри.</p></div>
+      </div>
+    </section>
+  </main>
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <a class="footer-brand" href="index.html">зелено-зелено.</a>
+        <p>Простір для залюблених у рослини.</p>
+      </div>
+      <div>
+        <h2>Контакти</h2>
+        <a href="mailto:hello@zeleno-zeleno.ua">hello@zeleno-zeleno.ua</a>
+        <a href="tel:+380000000000">+38 (000) 000-00-00</a>
+      </div>
+      <div>
+        <h2>Соціальні мережі</h2>
+        <a href="#">Instagram</a>
+        <a href="#">Pinterest</a>
+        <a href="#">Telegram</a>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      <span>© 2026 зелено-зелено.</span>
+      <span>Фотографії галерей: Unsplash</span>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
