@@ -29,6 +29,8 @@ button{cursor:pointer}
 .home-hero-content{position:relative;z-index:2;min-height:100svh;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:60px 20px;color:#fff}
 .home-hero h1{max-width:900px;margin:0 0 38px;font-family:"Cormorant Garamond",serif;font-size:clamp(3.1rem,8vw,7.4rem);line-height:.87;font-weight:500;text-shadow:0 4px 24px rgba(0,0,0,.25)}
 .home-hero h1 span{display:block;font-style:italic;font-size:.72em;margin-bottom:.18em}
+.home-hero h2{max-width:900px;margin:0 0 28px;font-family:"Cormorant Garamond",serif;font-size:clamp(2.9rem,6vw,6.4rem);line-height:.67;font-weight:300;text-shadow:0 4px 24px rgba(0,0,0,.25)}
+.home-hero h2 span{display:block;font-style:italic;font-size:.52em;margin-bottom:.16em}
 .hero-button{display:inline-flex;align-items:center;justify-content:center;min-width:250px;padding:17px 30px;border-radius:999px;background:#f6f7d9;color:var(--forest-deep);font-weight:700;transition:.25s ease;box-shadow:0 12px 35px rgba(0,0,0,.18)}
 .hero-button:hover{transform:translateY(-3px);background:#fff}
 .scroll-hint{position:absolute;z-index:3;bottom:25px;left:50%;transform:translateX(-50%);width:46px;height:46px;display:grid;place-items:center;border:1px solid rgba(255,255,255,.5);border-radius:50%;color:#fff;font-size:1.3rem}
